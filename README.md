@@ -1,21 +1,21 @@
 # Web personal de Ernesto López Losa
 
-Sitio estático en español, euskera e inglés, publicado en [ernestolopezlosa.github.io](https://ernestolopezlosa.github.io/) desde el [repositorio ernestolopezlosa/ernestolopezlosa.github.io](https://github.com/ernestolopezlosa/ernestolopezlosa.github.io). No necesita instalar programas ni contratar alojamiento. Tiene cuatro páginas independientes en cada idioma:
+Sitio estático en español e inglés, publicado en [ernestolopezlosa.github.io](https://ernestolopezlosa.github.io/) desde el [repositorio ernestolopezlosa/ernestolopezlosa.github.io](https://github.com/ernestolopezlosa/ernestolopezlosa.github.io). No necesita instalar programas ni contratar alojamiento. Tiene cuatro páginas independientes en cada idioma:
 
-| Sección | Español | Euskera | Inglés |
-| --- | --- | --- | --- |
-| Portada | `index.html` | `eu.html` | `en.html` |
-| Investigación | `investigacion.html` | `ikerketa.html` | `research.html` |
-| Docencia | `docencia.html` | `irakaskuntza.html` | `teaching.html` |
-| Currículum | `cv.html` | `cv-eu.html` | `cv-en.html` |
+| Sección | Español | Inglés |
+| --- | --- | --- |
+| Portada | `index.html` | `en.html` |
+| Investigación | `investigacion.html` | `research.html` |
+| Docencia | `docencia.html` | `teaching.html` |
+| Currículum | `cv.html` | `cv-en.html` |
 
-`styles.css` controla el diseño: tipografía sans serif DM Sans, fondo gris neutro, tarjetas blancas para las publicaciones, detalles azules y una cabecera oscura en la portada. `site.js` controla las tres vistas de Investigación. Las imágenes `figure-*.png` son gráficos y mapas relacionados con los trabajos. Los pies de figura enlazan con sus fuentes. La fotografía `portrait.jpg` procede del [perfil público de Ernesto López Losa en Academia.edu](https://ehu.academia.edu/ernestolopezlosa); el autor confirmó que desea usarla aquí.
+`styles.css` controla el diseño: tipografía sans serif DM Sans, fondo gris neutro, tarjetas blancas para las publicaciones, detalles azules y una cabecera oscura en la portada. La página de Investigación presenta una selección visual, el listado completo de publicaciones, proyectos y congresos. Las imágenes `figure-*.png` son gráficos y mapas relacionados con los trabajos. Los pies de figura enlazan con sus fuentes. La fotografía `portrait.jpg` procede del [perfil público de Ernesto López Losa en Academia.edu](https://ehu.academia.edu/ernestolopezlosa); el autor confirmó que desea usarla aquí.
 
 ## Cómo se publicó en GitHub Pages
 
 1. Se cambió el usuario de GitHub a `ernestolopezlosa` y el repositorio público a `ernestolopezlosa.github.io`.
-2. Se subieron los archivos HTML, `styles.css`, `site.js`, `favicon.svg`, `portrait.jpg` y `.nojekyll` a la raíz del repositorio mediante **Add file → Upload files**.
-3. En **Settings → Pages**, GitHub seleccionó automáticamente **Deploy from a branch**, `main` y `/(root)`. La versión actual tiene doce páginas HTML. La ejecución de **pages-build-deployment** terminó correctamente.
+2. Se subieron los archivos HTML, `styles.css`, `favicon.svg`, `portrait.jpg` y `.nojekyll` a la raíz del repositorio mediante **Add file → Upload files**.
+3. En **Settings → Pages**, GitHub seleccionó automáticamente **Deploy from a branch**, `main` y `/(root)`. La versión actual tiene ocho páginas HTML. La ejecución de **pages-build-deployment** terminó correctamente.
 4. Se comprobó que la dirección pública carga las páginas del sitio.
 
 Si en el futuro creas otra web en un repositorio con otro nombre, la dirección tendrá el formato `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/`.
@@ -42,7 +42,7 @@ Esta carpeta no incluye los CV originales porque contienen datos personales que 
 
 ## Fuentes de los datos
 
-Contenido basado en los CV facilitados (marzo de 2025 y junio de 2026). Se contrastaron el correo y la afiliación con el [perfil institucional de EHU](https://www.ehu.eus/es/web/graduak/grado-economia/profesorado?idPdi=3926&redirect=fichaPDI), y los enlaces de los artículos con sus páginas editoriales. La selección bibliográfica no pretende ser una lista completa.
+Contenido basado en los CV facilitados (marzo de 2025 y junio de 2026). La bibliografía completa reproduce los trabajos recogidos en el CV extenso, añade los de 2026 y excluye manuscritos en preparación. La sección de congresos reúne las intervenciones consignadas en ambos CV para los últimos quince años (2011–2026). Se contrastaron el correo y la afiliación con el [perfil institucional de EHU](https://www.ehu.eus/es/web/graduak/grado-economia/profesorado?idPdi=3926&redirect=fichaPDI), y los enlaces de los artículos con sus páginas editoriales. La lista publicada corresponde a las entradas de los CV facilitados y no sustituye a una bibliografía actualizada después de 2026.
 
 ## Ayuda oficial
 
