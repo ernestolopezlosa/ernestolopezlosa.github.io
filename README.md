@@ -9,12 +9,12 @@ Sitio estático en español e inglés, publicado en [ernestolopezlosa.github.io]
 | Docencia | `docencia.html` | `teaching.html` |
 | Currículum | `cv.html` | `cv-en.html` |
 
-`styles.css` controla el diseño, de fondo blanco y detalles azules.
+`styles.css` controla el diseño: fondo blanco, detalles azules y una cabecera oscura en la portada. `site.js` controla las tres vistas de Investigación. La fotografía `portrait.jpg` procede del [perfil público de Ernesto López Losa en Academia.edu](https://ehu.academia.edu/ernestolopezlosa); el autor confirmó que desea usarla aquí.
 
 ## Cómo se publicó en GitHub Pages
 
 1. Se cambió el usuario de GitHub a `ernestolopezlosa` y el repositorio público a `ernestolopezlosa.github.io`.
-2. Se subieron los ocho archivos HTML, `styles.css`, `favicon.svg` y `.nojekyll` a la raíz del repositorio mediante **Add file → Upload files**.
+2. Se subieron los ocho archivos HTML, `styles.css`, `site.js`, `favicon.svg`, `portrait.jpg` y `.nojekyll` a la raíz del repositorio mediante **Add file → Upload files**.
 3. En **Settings → Pages**, GitHub seleccionó automáticamente **Deploy from a branch**, `main` y `/(root)`. La ejecución de **pages-build-deployment** terminó correctamente.
 4. Se comprobó que la dirección pública carga las ocho páginas y el fondo blanco con detalles azules.
 
