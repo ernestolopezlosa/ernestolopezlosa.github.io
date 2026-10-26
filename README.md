@@ -9,7 +9,7 @@ Sitio estático en español e inglés, publicado en [ernestolopezlosa.github.io]
 | Docencia | `docencia.html` | `teaching.html` |
 | Currículum | `cv.html` | `cv-en.html` |
 
-`styles.css` controla el diseño: fondo gris neutro, tarjetas blancas para las publicaciones, detalles azules y una cabecera oscura en la portada. `site.js` controla las tres vistas de Investigación. Las imágenes `figure-*.svg` son esquemas originales de los temas de cada trabajo; **no representan datos ni reproducen figuras publicadas**. La fotografía `portrait.jpg` procede del [perfil público de Ernesto López Losa en Academia.edu](https://ehu.academia.edu/ernestolopezlosa); el autor confirmó que desea usarla aquí.
+`styles.css` controla el diseño: fondo gris neutro, tarjetas blancas para las publicaciones, detalles azules y una cabecera oscura en la portada. `site.js` controla las tres vistas de Investigación. Las imágenes `figure-*.png` son gráficos y mapas relacionados con los trabajos. Los pies de figura enlazan con sus fuentes. La fotografía `portrait.jpg` procede del [perfil público de Ernesto López Losa en Academia.edu](https://ehu.academia.edu/ernestolopezlosa); el autor confirmó que desea usarla aquí.
 
 ## Cómo se publicó en GitHub Pages
 
@@ -22,7 +22,17 @@ Si en el futuro creas otra web en un repositorio con otro nombre, la dirección 
 
 ## Actualizar la web
 
-Para corregir textos o añadir publicaciones, abre el archivo de la sección correspondiente en el repositorio y usa el icono del lápiz; después confirma con **Commit changes**. Para modificar colores o tipografía, edita `styles.css`. Las imágenes de las publicaciones son los archivos `figure-*.svg`. Si prefieres reemplazar archivos completos, usa **Add file → Upload files** en el repositorio. Cada cambio confirmado en `main` vuelve a publicar el sitio.
+Para corregir textos o añadir publicaciones, abre el archivo de la sección correspondiente en el repositorio y usa el icono del lápiz; después confirma con **Commit changes**. Para modificar colores o tipografía, edita `styles.css`. Las imágenes de las publicaciones son los archivos `figure-*.png`. Si prefieres reemplazar archivos completos, usa **Add file → Upload files** en el repositorio. Cada cambio confirmado en `main` vuelve a publicar el sitio.
+
+### Fuentes de las figuras
+
+- `figure-respectable-living.png`: figura 3 de [López Losa (2026)](https://doi.org/10.1017/S0212610926101086), CC BY 4.0.
+- `figure-daily-annual-wages.png`: figura 5 de [Bartolomé Rodríguez et al. (2026)](https://doi.org/10.1007/978-3-031-91930-5_10), CC BY-NC-ND 4.0.
+- `figure-fishing-constraints.png`: figura 1 de [López Losa (2023)](https://revistes.ub.edu/index.php/HistoriaIndustrial/article/download/36781/38653/113832).
+- `figure-little-divergence.png`: figura 5 de la [versión de trabajo de López Losa y Piquero Zarauz (2016)](https://media.timtul.com/media/web_aehe/dt-aehe-1607_20240108094523.pdf). Corresponde a una versión previa del artículo de 2021 y se identifica como tal en la web.
+- `figure-royal-palace.png`: gráfico original construido con los intervalos salariales de la tabla 1 de [García-Zúñiga y López Losa (2021)](https://doi.org/10.1111/ehr.13048), p. 694; los datos son reales de vellón por día en 1790.
+- `figure-hamilton-prices.png`: figura 5 de [López Losa (2013)](https://recyt.fecyt.es/index.php/IHE/article/download/70523/42670/220135).
+- `figure-basque-guilds.png` y `figure-fishing-rights.png`: mapas originales elaborados con la costa de [Natural Earth](https://www.naturalearthdata.com/downloads/10m-physical-vectors/) (dominio público) y las posiciones de puertos publicadas por [Euskadiko Kirol Portuak](https://ekp.euskadi.eus/es/). Muestran ubicación geográfica, no resultados cuantitativos de los artículos.
 
 ## Si quieres retirar la web
 

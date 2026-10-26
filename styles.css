@@ -35,4 +35,6 @@
 @media(max-width:480px){.pub-list li{grid-template-columns:1fr}.pub-visual{width:min(100%,280px)}}
 
 .paper-visual,.pub-visual{margin:0}
-.paper-visual figcaption,.pub-visual figcaption{padding:5px 9px;background:#fff;border-top:1px solid #e2e2e2;color:#69717a;font:600 .66rem/1.3 'DM Sans',Arial,sans-serif;letter-spacing:.03em;text-transform:uppercase}
+.paper-visual figcaption,.pub-visual figcaption{padding:6px 9px;background:#fff;border-top:1px solid #e2e2e2;color:#56636e;font:500 .69rem/1.35 'DM Sans',Arial,sans-serif}
+.paper-visual figcaption a,.pub-visual figcaption a{color:inherit;text-decoration:none}
+.paper-visual figcaption a:hover,.pub-visual figcaption a:hover{text-decoration:underline}
