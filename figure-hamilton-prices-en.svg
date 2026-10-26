@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 376" role="img">
+<defs>
+<marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#285c98"/></marker>
+<marker id="arrow-rust" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#ad705d"/></marker>
+</defs>
+<rect width="600" height="376" fill="#fbfbfa"/>
+<rect x="20" y="20" width="560" height="336" rx="12" fill="#fff" stroke="#dce1e5"/>
+<text x="42" y="48" text-anchor="start" fill="#536174" font-family="Arial,sans-serif" font-size="19" font-weight="700">SPAIN · 1650–1800</text><rect x="39" y="118" width="158" height="65" rx="9" fill="#f5f6f7" stroke="#708091" stroke-width="2"/><text x="118.0" y="157.5" text-anchor="middle" fill="#273341" font-family="Arial,sans-serif" font-size="19" font-weight="600">Castile</text><path d="M118 185 L300 243" fill="none" stroke="#285c98" stroke-width="3" marker-end="url(#arrow-blue)"/><rect x="221" y="118" width="158" height="65" rx="9" fill="#f5f6f7" stroke="#708091" stroke-width="2"/><text x="300.0" y="157.5" text-anchor="middle" fill="#273341" font-family="Arial,sans-serif" font-size="19" font-weight="600">Andalusia</text><path d="M300 185 L300 243" fill="none" stroke="#285c98" stroke-width="3" marker-end="url(#arrow-blue)"/><rect x="403" y="118" width="158" height="65" rx="9" fill="#f5f6f7" stroke="#708091" stroke-width="2"/><text x="482.0" y="157.5" text-anchor="middle" fill="#273341" font-family="Arial,sans-serif" font-size="19" font-weight="600">Valencia</text><path d="M482 185 L300 243" fill="none" stroke="#285c98" stroke-width="3" marker-end="url(#arrow-blue)"/><rect x="190" y="249" width="220" height="74" rx="9" fill="#e7eef7" stroke="#285c98" stroke-width="2"/><text x="300.0" y="293.0" text-anchor="middle" fill="#273341" font-family="Arial,sans-serif" font-size="19" font-weight="600">Price series</text>
+</svg>
